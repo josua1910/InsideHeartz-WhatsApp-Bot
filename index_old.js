@@ -352,17 +352,17 @@ else if (msg.body == "!menu") {
     *SELAMAT DATANG 😎*
 
 
-Join Grup update bot ini , untuk melihat 
-fitur baru serta aktif / tidak nya 
-https://chat.whatsapp.com/CD1DOWJsJXWJvhpY8ud4S5
+Kami Menyediakan Bot dengan fiture menarik
+jangan lupa mampir grup bot kami terimakasih
+https://chat.whatsapp.com/F4iO1UxDaUOGE7itha7alG
 
 			  ️*List Menu*
 			
-➡️ !admin = Menu Khusus Admin Grup🏅
-➡️ !menu1 = Fun Menu 🌞
-➡️ !menu2 = Downloader Menu🎞
-➡️ !menu3 = Horoscope Menu 🎇
-➡️ !menu4 = Edukasi Menu 📕 
+📁 !admin = Menu Khusus Admin Grup🤖
+📁 !menu1 = Fun Menu 🤖
+📁 !menu2 = Downloader Menu🤖
+📁 !menu3 = Horoscope Menu 🤖
+📁 !menu4 = Edukasi Menu 🤖 
 
 
 
