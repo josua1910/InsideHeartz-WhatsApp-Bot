@@ -1,4 +1,4 @@
-// code by InsideHeartz
+// code by Heartz
 // github.com/fdciabdul
 
 const fs = require("fs"); 
@@ -140,7 +140,7 @@ client.on('group_join', async (notification) => {
     console.log('join', notification);
     const botno = notification.chatId.split('@')[0];
     let number = await notification.id.remote;
-    client.sendMessage(number, `Hai perkenalkan aku Inside Bot, selamat datang di group ini`);
+    client.sendMessage(number, `Hai perkenalkan aku BOT_STYLE, selamat datang di group ini`);
   
     const chats = await client.getChats();
 
@@ -426,10 +426,10 @@ else if (msg.body == "!menu2") {
    *Welcome To Downloader Menu*
    
  *!yt url* : Mendownload video dari youtube
-contoh : !yt https://youtu.be/K9jR4hSCbG4
+contoh : !yt https://youtu.be/eCGt-9tCpLs
 
 *!ytmp3 url* : Mendownload mp3 dari youtube
-contoh : !ytmp3 https://youtu.be/xUVz4nRmxn4
+contoh : !ytmp3 https://youtu.be/eCGt-9tCpLs
 
 *!fb url* : Mendownload video dari facebook
 contoh : !fb url
@@ -503,7 +503,7 @@ Artis : *${data.artist}*
 
    ----------------------------------
 👾                          👾
-  _Ytmp3 WhatsApp By InsideBot_
+  _Ytmp3 WhatsApp By BOT_STYLE_
 `);
 chat.sendMessage(musik);
 });
@@ -563,7 +563,7 @@ var ehe = `
 
 🔉  *${data.videoTitle}* 
 
-Youtube Play Songs By InsideHeartz :)
+Youtube Play Songs By BOT_STYLE :)
 `;
 let media = MessageMedia.fromFilePath('./zerotwo.jpg');
 	client.sendMessage(msg.from, media, {
@@ -589,7 +589,7 @@ var b = JSON.parse(JSON.stringify(result.data));
  
  Judul = ${b.judul}
  
- Facebook Downloader By InsideHeartz (*´∇｀*)
+ Facebook Downloader By BOT_STYLE (*´∇｀*)
  `;
  
 exec('wget "' + b.link + '" -O mp4/fbvid.mp4', (error, stdout, stderr) => {
@@ -741,7 +741,7 @@ var b = JSON.parse(JSON.stringify(result.data));
  console.log(b.data[0].url) 
   var teks = ` Download Berhasil 
   
-  Instagram Downloader By InsideHeartz`;
+  Instagram Downloader By BOT_STYLE`;
   if(b.url == false){
 	  msg.reply(" maaf Kak link nya gaada :P ");
   }else if( b.data[0][0].type == "foto"){
@@ -1097,7 +1097,7 @@ msg.reply(
          Nama _*${nama}*_ ${h}
   ----------------------------------
 
-        *_Arti Nama By InsideHeartz_*
+        *_Arti Nama By BOT_STYLE_*
 `
         );
 });
