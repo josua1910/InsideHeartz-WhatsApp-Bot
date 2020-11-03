@@ -354,15 +354,15 @@ else if (msg.body == "!menu") {
 
 Join Grup update bot ini , untuk melihat 
 fitur baru serta aktif / tidak nya 
-https://chat.whatsapp.com/CD1DOWJsJXWJvhpY8ud4S5
+https://chat.whatsapp.com/F4iO1UxDaUOGE7itha7alG
 
 			  ️*List Menu*
 			
-➡️ !admin = Menu Khusus Admin Grup🏅
-➡️ !menu1 = Fun Menu 🌞
-➡️ !menu2 = Downloader Menu🎞
-➡️ !menu3 = Horoscope Menu 🎇
-➡️ !menu4 = Edukasi Menu 📕 
+📁 !admin = Menu Khusus Admin Grup🤖
+📁 !menu1 = Fun Menu 🤖
+📁 !menu2 = Downloader Menu🤖
+📁 !menu3 = Horoscope Menu 🤖
+📁 !menu4 = Edukasi Menu 🤖 
 
 
 
@@ -426,10 +426,10 @@ else if (msg.body == "!menu2") {
    *Welcome To Downloader Menu*
    
  *!yt url* : Mendownload video dari youtube
-contoh : !yt https://youtu.be/K9jR4hSCbG4
+contoh : !yt https://youtu.be/eCGt-9tCpLs
 
 *!ytmp3 url* : Mendownload mp3 dari youtube
-contoh : !ytmp3 https://youtu.be/xUVz4nRmxn4
+contoh : !ytmp3 https://youtu.be/eCGt-9tCpLs
 
 *!fb url* : Mendownload video dari facebook
 contoh : !fb url
@@ -503,7 +503,7 @@ Artis : *${data.artist}*
 
    ----------------------------------
 👾                          👾
-  _Ytmp3 WhatsApp By InsideBot_
+  _Ytmp3 WhatsApp By BOT_STYLE_
 `);
 chat.sendMessage(musik);
 });
@@ -589,7 +589,7 @@ var b = JSON.parse(JSON.stringify(result.data));
  
  Judul = ${b.judul}
  
- Facebook Downloader By InsideHeartz (*´∇｀*)
+ Facebook Downloader By BOT_STYLE (*´∇｀*)
  `;
  
 exec('wget "' + b.link + '" -O mp4/fbvid.mp4', (error, stdout, stderr) => {
@@ -1097,7 +1097,7 @@ msg.reply(
          Nama _*${nama}*_ ${h}
   ----------------------------------
 
-        *_Arti Nama By InsideHeartz_*
+        *_Arti Nama By BOT_STYLE*
 `
         );
 });
